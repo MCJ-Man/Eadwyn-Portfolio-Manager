@@ -1,0 +1,31 @@
+jetzt:
+	-add plus/minus within balancing intervals (for capgain up/down)
+	-make balance-menu
+
+	-calculate and display total volatility
+
+zukunft:
+	-change color palette
+	-real time slider adjustments
+	-spinbox coupled with slider
+	-pfeile hoch/runter => anpassung im balance plot
+
+	-explode balance plot
+	-dividends
+	-inflation adjusted y/x-axis	
+	
+	-multi thread plotting and downloading search array
+
+	-load arrays above 10 years
+	-make balance_crawler work for assets with different lenths
+
+	balance:
+	-norm y axis to reference index
+	-draw lines (i.e. 5% mark) or inflation lines
+
+bug fixes:
+	-adjust weights doesnt add up to 100
+	--> tbd: most recent entry not interpolated if not available (latest pbly too)
+	-echeck all asset types for day-lag
+	
+	-monday 0:45....reference index not same len as msci world search obj
